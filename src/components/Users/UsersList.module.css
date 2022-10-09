@@ -1,0 +1,35 @@
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+  width: 800px;
+}
+
+.users li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users li p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.users li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
